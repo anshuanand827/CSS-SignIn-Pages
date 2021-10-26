@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+#main-content{
+    margin-top: 5%;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px; 
+    background-image: url('482755.jpg');
+    background-size: cover;
+}
+#login-card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    height: 70%;
+}
+#main-content h1{
+    text-align: center;
+    flex: 1;
+    font-family: 'Rampart One', cursive;
+}
+
+#main-content form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding: 5px;
+    flex: 3;
+}
+#username{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+#username input{
+    height: 1.8rem;
+    margin-bottom: 5px;
+}
+#password{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+#password input{
+    height: 1.8rem;
+    margin-bottom: 5px;
+}
+#login-btn{
+    width: 80%;
+    height: 1.8rem;
+    margin-top: 5px;
+    background: none;
+    border: none;
+    border: 2px solid cyan;
+    border-radius: 7px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+#rem_check{
+    align-self: flex-start;
+    margin-left: 9%;
+}
+input{
+    /* background-color: rgba(0,0,0,0.1); */
+    background: none;
+    border: none;
+    color: #fff;
+    border-bottom: 2px solid cyan;
+    font-family: 'Roboto', sans-serif;
+}
