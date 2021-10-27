@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Rampart One', cursive;
+}
+
+body{
+    background-color: grey;
+    color: white;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: row;
+}
+
+#left{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+#right{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    flex: 1;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+}
+
+#center{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#login-card{
+    /* border: 2px solid violet; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+h1{
+    text-align: center;
+}
+form{
+    /* border: 2px solid white; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-text{
+    height: 2.5rem;
+    width: 40vh;
+    margin-bottom: 10px;
+    background: none;
+    border: none;
+    border: 1px solid #fff;
+    color: white;
+}
+
+.login-text:focus{
+    width: 45vh;
+}
+
+button{
+    height: 2.5rem;
+    width: 40vh;
+    background-color: white;
+    color: grey;
+}
+
+#left-box{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    transition: transform 5s;
+}
+
+#left-box:hover{
+    transform: translateY(-645px) rotate(360deg);  
+}
+
+/* #right-box{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    transition: transform 5s;
+}
+
+#right-box:hover{
+    transform: translateY(645px) rotate(360deg);  
+} */
+
+/* @media(max-width:450px){
+    #left-box{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media(max-width:450px){
+    #left-box{
+        width: 25px;
+        height: 25px;
+    }
+} */
+
+@media(max-width:500px){
+    #main-content{
+        display: flex;
+        flex-direction: column;
+    }
+    #left-box{
+        opacity: 0;
+    }
+}
