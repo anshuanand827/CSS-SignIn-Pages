@@ -1,0 +1,136 @@
+body{
+    background-color: #000;
+    display: flex;
+}
+#left{
+    width: 100%;
+}
+
+#center{
+    padding: 0;
+    /* border: 2px solid white; */
+    height: 100vh;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#right{
+    width: 100%;
+}
+
+h1{
+    color: white;
+    
+}
+
+#usersideone{
+    border: 2px solid blueviolet;
+    width: 60%;
+    height: 30px;  
+    transform: translateX(100px);
+    transform: skewX(-50deg);
+    background-color: blueviolet;
+}
+#lower{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#userinput{
+    width: 59%;
+    height: 40px;
+    background: none;
+    border: none;
+    /* border: 2px solid rgb(27, 153, 211); */
+    color:white;
+    margin-left: 2px;
+}
+
+#usersidetwo{
+    height: 42px;
+    width: 37px;
+    border: 2px solid blueviolet;
+    transform: translateY(-16px) skewY(-40deg);
+}
+
+
+#passsideone{
+    border: 2px solid blueviolet;
+    width: 60%;
+    height: 30px;  
+    transform: translateX(100px);
+    transform: skewX(-50deg);
+    background-color: blueviolet;
+}
+#passlower{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#passinput{
+    width: 59%;
+    height: 40px;
+    background: none;
+    border: none;
+    /* border: 2px solid rgb(27, 153, 211); */
+    color:white;
+    margin-left: 2px;
+}
+
+#passsidetwo{
+    height: 42px;
+    width: 37px;
+    border: 2px solid blueviolet;
+    transform: translateY(-16px) skewY(-40deg);
+}
+
+#btnsideone{
+    border: 2px solid blueviolet;
+    width: 60%;
+    height: 30px;  
+    transform: translateX(100px);
+    transform: skewX(-50deg);
+    background-color: blueviolet;
+}
+#btnlower{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#login-btn{
+    width: 61%;
+    height: 45px;
+    background: none;
+    border: none;
+    /* border: 2px solid rgb(27, 153, 211); */
+    color:white;
+    margin-left: 2px;
+}
+
+#btnsidetwo{
+    height: 42px;
+    width: 37px;
+    border: 2px solid blueviolet;
+    transform: translateY(-16px) skewY(-40deg);
+}
+
+#login-btn:focus{
+    background-color: darkturquoise;
+}
+
+
+@media(max-width:1500px){
+
+}
